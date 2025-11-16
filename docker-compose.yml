@@ -1,0 +1,61 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: illustrators_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: illustrators_db
+      POSTGRES_USER: illustrators_user
+      POSTGRES_PASSWORD: Anechka123
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init-scripts:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U illustrators_user -d illustrators_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - illustrators-network
+
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: illustrators_pgadmin
+    restart: unless-stopped
+    environment:
+      PGADMIN_DEFAULT_EMAIL: podolny.anna@gmail.com
+      PGADMIN_DEFAULT_PASSWORD: Anechka123
+    ports:
+      - "5050:80"
+    depends_on:
+      - postgres
+    networks:
+      - illustrators-network
+
+  auth-service:
+    build:
+      context: ./AuthService
+      dockerfile: Dockerfile
+    container_name: auth-service
+    restart: unless-stopped
+    environment:
+      ASPNETCORE_ENVIRONMENT: Docker
+      ASPNETCORE_HTTP_PORTS: 8080
+    ports:
+     - "5001:8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - illustrators-network
+
+volumes:
+  postgres_data:
+
+networks:
+  illustrators-network:
+    driver: bridge
