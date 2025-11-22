@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IllustratorService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2caedf18c67e470a5c937009eb28e22f0d784fa8")]
 [assembly: System.Reflection.AssemblyProductAttribute("IllustratorService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IllustratorService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
