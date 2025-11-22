@@ -1,16 +1,6 @@
 [
   {
     "ContainingType": "AuthService.Controllers.AuthController",
-    "Method": "Health",
-    "RelativePath": "api/Auth/health",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "AuthService.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "api/Auth/login",
     "HttpMethod": "POST",
@@ -19,13 +9,13 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "AuthService.Models.LoginRequest",
+        "Type": "AuthService.Models.DTOs.LoginRequest",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "AuthService.Models.AuthResponse",
+        "Type": "AuthService.Models.DTOs.AuthResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -45,13 +35,13 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "AuthService.Models.RegisterRequest",
+        "Type": "AuthService.Models.DTOs.RegisterRequest",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "AuthService.Models.AuthResponse",
+        "Type": "AuthService.Models.DTOs.AuthResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -77,7 +67,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "AuthService.Models.AuthResponse",
+        "Type": "AuthService.Models.DTOs.AuthResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",

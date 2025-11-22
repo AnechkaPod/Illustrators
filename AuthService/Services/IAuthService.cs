@@ -1,4 +1,4 @@
-﻿using AuthService.Models;
+﻿using AuthService.Models.DTOs;
 
 namespace AuthService.Services
 {

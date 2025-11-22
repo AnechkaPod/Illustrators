@@ -121,3 +121,5 @@ C:\Users\user.DESKTOP-6KCUQP6\Projects\Illustators\AuthService\obj\Debug\net8.0\
 C:\Users\user.DESKTOP-6KCUQP6\Projects\Illustators\AuthService\obj\Debug\net8.0\AuthService.genruntimeconfig.cache
 C:\Users\user.DESKTOP-6KCUQP6\Projects\Illustators\AuthService\obj\Debug\net8.0\ref\AuthService.dll
 C:\Users\user.DESKTOP-6KCUQP6\Projects\Illustators\AuthService\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\user.DESKTOP-6KCUQP6\Projects\Illustators\AuthService\bin\Debug\net8.0\appsettings.Docker.json
+C:\Users\user.DESKTOP-6KCUQP6\Projects\Illustators\AuthService\obj\Debug\net8.0\AuthService.sourcelink.json

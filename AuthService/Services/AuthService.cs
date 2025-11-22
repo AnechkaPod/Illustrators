@@ -5,7 +5,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using BCrypt.Net;
 using AuthService.Data;
-using AuthService.Models;
+using AuthService.Models.DTOs;
+using AuthService.Models.Entities;
 
 namespace AuthService.Services;
 
@@ -137,7 +138,7 @@ public class AuthService : IAuthService
         {
             var tokenHandler = new JwtSecurityTokenHandler();
             var key = Encoding.UTF8.GetBytes(_configuration["JwtSettings:Secret"] ?? throw new InvalidOperationException("JWT Secret not configured"));
-
+            token = token.Substring("Bearer ".Length).Trim();
             tokenHandler.ValidateToken(token, new TokenValidationParameters
             {
                 ValidateIssuerSigningKey = true,

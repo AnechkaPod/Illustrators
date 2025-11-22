@@ -1,12 +1,69 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user.DESKTOP-6KCUQP6\\Projects\\Illustators\\IllustratorService\\IllustratorService\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\user.DESKTOP-6KCUQP6\\Projects\\Illustators\\IllustratorService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D2F43C02-4026-4DA3-BC58-BDDCC3D15951}|IllustratorService\\IllustratorService.csproj|c:\\users\\user.desktop-6kcuqp6\\projects\\illustators\\illustratorservice\\illustratorservice\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D2F43C02-4026-4DA3-BC58-BDDCC3D15951}|IllustratorService\\IllustratorService.csproj|solutionrelative:illustratorservice\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2F43C02-4026-4DA3-BC58-BDDCC3D15951}|IllustratorService\\IllustratorService.csproj|c:\\users\\user.desktop-6kcuqp6\\projects\\illustators\\illustratorservice\\illustratorservice\\middleweare\\jwtauthenticationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2F43C02-4026-4DA3-BC58-BDDCC3D15951}|IllustratorService\\IllustratorService.csproj|solutionrelative:illustratorservice\\middleweare\\jwtauthenticationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2F43C02-4026-4DA3-BC58-BDDCC3D15951}|IllustratorService\\IllustratorService.csproj|c:\\users\\user.desktop-6kcuqp6\\projects\\illustators\\illustratorservice\\illustratorservice\\controllers\\illustratorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2F43C02-4026-4DA3-BC58-BDDCC3D15951}|IllustratorService\\IllustratorService.csproj|solutionrelative:illustratorservice\\controllers\\illustratorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\user.DESKTOP-6KCUQP6\\Projects\\Illustators\\IllustratorService\\IllustratorService\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "IllustratorService\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\user.DESKTOP-6KCUQP6\\Projects\\Illustators\\IllustratorService\\IllustratorService\\appsettings.Development.json",
+              "RelativeToolTip": "IllustratorService\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-22T09:40:15.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JwtAuthenticationMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\user.DESKTOP-6KCUQP6\\Projects\\Illustators\\IllustratorService\\IllustratorService\\Middleweare\\JwtAuthenticationMiddleware.cs",
+              "RelativeDocumentMoniker": "IllustratorService\\Middleweare\\JwtAuthenticationMiddleware.cs",
+              "ToolTip": "C:\\Users\\user.DESKTOP-6KCUQP6\\Projects\\Illustators\\IllustratorService\\IllustratorService\\Middleweare\\JwtAuthenticationMiddleware.cs",
+              "RelativeToolTip": "IllustratorService\\Middleweare\\JwtAuthenticationMiddleware.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAwCUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T18:36:51.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IllustratorsController.cs",
+              "DocumentMoniker": "C:\\Users\\user.DESKTOP-6KCUQP6\\Projects\\Illustators\\IllustratorService\\IllustratorService\\Controllers\\IllustratorsController.cs",
+              "RelativeDocumentMoniker": "IllustratorService\\Controllers\\IllustratorsController.cs",
+              "ToolTip": "C:\\Users\\user.DESKTOP-6KCUQP6\\Projects\\Illustators\\IllustratorService\\IllustratorService\\Controllers\\IllustratorsController.cs",
+              "RelativeToolTip": "IllustratorService\\Controllers\\IllustratorsController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAswCAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T18:15:17.877Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

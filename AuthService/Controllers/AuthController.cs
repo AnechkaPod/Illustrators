@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using AuthService.Models;
 using AuthService.Services;
+using AuthService.Models.DTOs;
 
 namespace AuthService.Controllers;
 
@@ -70,9 +70,5 @@ public class AuthController : ControllerBase
         return Ok(response);
     }
 
-    [HttpGet("health")]
-    public IActionResult Health()
-    {
-        return Ok(new { status = "healthy", service = "auth-service", timestamp = DateTime.UtcNow });
-    }
+
 }
